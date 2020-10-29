@@ -1,0 +1,95 @@
+body {
+    font-family: 'Abel', sans-serif;
+    background: #f0f0f0;
+}
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.brand-name {font-size: 1.75em;}
+
+nav a {
+    font-size: .75em;
+    color: black;
+}
+
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+}
+
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+}
+
+@media screen and (min-width: 992px) {
+    .sub-title {text-align: left;}
+    hr {width: 100%;}
+
+    .brand-name  {
+        position: relative;
+        top: 5px;
+    }
+}
+
+.red {
+    display: flex;
+    height: 6em;
+    width: 6em;
+    color: white;
+    border: 5px solid white;
+    border-radius: 50px;
+    background-color: #e6563b;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow {
+    display: flex;
+    height: 6em;
+    width: 6em;
+    color: white;
+    border: 5px solid white;
+    border-radius: 50px;
+    background-color: #dea03d;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    display: flex;
+    height: 6em;
+    width: 6em;
+    color: white;
+    border: 5px solid white;
+    border-radius: 50px;
+    background-color: #7cb06c;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    display: flex;
+    height: 6em;
+    width: 6em;
+    color: white;
+    border: 5px solid white;
+    border-radius: 50px;
+    background-color: #00aba9;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-6 {
+    display: flex;
+    justify-content: center;
+}
