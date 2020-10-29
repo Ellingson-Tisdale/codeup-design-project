@@ -41,7 +41,7 @@ nav .nav-item {
     }
 }
 
-.red {
+.b_circle {
     display: flex;
     height: 6em;
     width: 6em;
@@ -52,41 +52,30 @@ nav .nav-item {
     justify-content: center;
     align-items: center;
 }
-
-.yellow {
+.s-circle {
+    text-size: 4px;
     display: flex;
-    height: 6em;
-    width: 6em;
-    color: white;
-    border: 5px solid white;
+    height: 1.5em;
+    width: 1.5em;
     border-radius: 50px;
-    background-color: #dea03d;
+    background-color: #e6563b;
     justify-content: center;
     align-items: center;
+}
+.red {
+    background-color: #e6563b;
+}
+
+.yellow {
+    background-color: #dea03d;
 }
 
 .green {
-    display: flex;
-    height: 6em;
-    width: 6em;
-    color: white;
-    border: 5px solid white;
-    border-radius: 50px;
     background-color: #7cb06c;
-    justify-content: center;
-    align-items: center;
 }
 
 .blue {
-    display: flex;
-    height: 6em;
-    width: 6em;
-    color: white;
-    border: 5px solid white;
-    border-radius: 50px;
     background-color: #00aba9;
-    justify-content: center;
-    align-items: center;
 }
 
 .col-6 {
