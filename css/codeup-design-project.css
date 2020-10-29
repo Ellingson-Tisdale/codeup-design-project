@@ -51,6 +51,8 @@ nav .nav-item {
     background-color: #e6563b;
     justify-content: center;
     align-items: center;
+    margin: .5em 0;
+
 }
 .s-circle {
     text-size: 4px;
@@ -60,7 +62,7 @@ nav .nav-item {
     border-radius: 50px;
     background-color: #e6563b;
     justify-content: center;
-    align-items: center;
+
 }
 .red {
     background-color: #e6563b;
@@ -78,7 +80,33 @@ nav .nav-item {
     background-color: #00aba9;
 }
 
-.col-6 {
+
+.left {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 425px) {
+    .line {
+        display: none;
+    }
+}
+@media screen and (min-width: 425px) {
+    .line {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .line {
+        width: 90%;
+    }
 }
