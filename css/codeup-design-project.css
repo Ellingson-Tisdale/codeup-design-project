@@ -43,11 +43,11 @@ nav .nav-item {
 
 .b_circle {
     display: flex;
-    height: 6em;
-    width: 6em;
+    height: 8em;
+    width: 8em;
     color: white;
     border: 5px solid white;
-    border-radius: 50px;
+    border-radius: 100px;
     background-color: #e6563b;
     justify-content: center;
     align-items: center;
@@ -55,12 +55,10 @@ nav .nav-item {
 
 }
 .s-circle {
-    text-size: 4px;
     display: flex;
     height: 1.5em;
     width: 1.5em;
     border-radius: 50px;
-    background-color: #e6563b;
     justify-content: center;
 }
 .red {
@@ -105,7 +103,39 @@ nav .nav-item {
 }
 
 @media screen and (min-width: 768px) {
+    .s-circle{
+        font-size: 10px;
+        display: flex;
+        height: 1.5em;
+        width: 1.5em;
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-6 {
+        width: 90px;
+        font-size: xx-small;
+    }
     .line {
         width: 90%;
     }
+}
+.col-6 {
+    padding: 0 0 0 1em;
+    text-align: left;
+}
+.img-border {
+    border: 5px solid #e6e6e6;
+    margin: 1em auto;
+}
+.col-1 {
+    margin-right: .25em;
+    padding: 0;
+}
+.bottom {
+    margin-top: 5em;
+
+}
+.col-12 {
+    margin: 0 0 3em 0
 }
