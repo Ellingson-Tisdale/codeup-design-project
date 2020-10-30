@@ -110,7 +110,7 @@ h5 {
     text-align: center;
 }
 .title-two {
-    margin: 2em 0 3em 0;
+    margin: 1.5em 0 3em 0;
     text-align: center;
 }
 @media screen and (max-width: 575px) {
@@ -179,3 +179,16 @@ h1 {
 h2 {
     font-size: 48px;
 }
+
+.last-words {
+    margin-left: 3.5em;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.title-three{
+    padding-left: 1.5em;
+}
+
