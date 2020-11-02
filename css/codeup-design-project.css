@@ -155,6 +155,9 @@ padding: 0;
         justify-content: flex-end;
         padding-right: 16px;
     }
+    .fp {
+        font-size: 16px;
+    }
 }
 @media screen and (min-width: 576px) {
     .fp {
@@ -201,5 +204,10 @@ padding: 0;
     .brand-name  {
         position: relative;
         top: 5px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .last {
+        margin-top: 6em;
     }
 }
